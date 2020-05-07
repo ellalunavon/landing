@@ -1,0 +1,60 @@
+.btn-red {
+  padding: 20px 60px;
+  background-color: pink;
+  color: white;
+  border-radius: 50px;
+}
+.banner{
+  width: 1000px;
+  height: 650px;
+}
+.container {
+  width: 1000px;
+  height: 650px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  flex-direction: column;
+}
+
+.card-product {
+  width: 470px;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  margin: 20px;
+  background-color: white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+.shopping_offer{
+  display: flex;
+}
+
+.text{
+  justify-content: flex-end;
+  align-items: center;
+  color: grey;
+  margin: 10px;
+}
+
+.card-product img {
+  width: 200px;
+  height: 100%;
+  object-fit: none;
+}
+
+.list-inline {
+  padding: 0;
+}
+
+.list-inline li {
+  display: inline-block;
+}
+.follow {
+  color: lightblue;
+  font-size: 30px;
+  line-height: 0px;
+  display: flex;
+  justify-content: center;
+}
